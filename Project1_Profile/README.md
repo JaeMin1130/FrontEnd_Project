@@ -1,1 +1,1 @@
-+ profile-ad187.firebaseapp.com
++ https://profile-ad187.firebaseapp.com
