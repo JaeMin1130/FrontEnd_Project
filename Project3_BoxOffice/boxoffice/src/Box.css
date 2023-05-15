@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.rank,
+.sales {
+    text-align: center;
+}
+
+.name,
+.increase {
+    text-align: center;
+}
+
+tr th {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(185, 184, 184);
+}
+
+tfoot tr div {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: stretch
+}
+
+tfoot tr a {
+    color: black;
+    font-weight: bold;
+}   
+tfoot tr div a:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(247, 244, 244);
+}
