@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.photoHeader {
+    margin-bottom: 0px;
+}
+
+.photoHgroup {
+    margin: 0px;
+}
+.photoHgroup h2{
+    text-align: start;
+    margin: 0px;
+}
+
+.photoArticle {
+    margin: 10px;
+    height: 600px;
+}
+
+.photoArticle img {
+    height: 300px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    overflow:hidden 
+}
+.photoArticle img:hover{
+    cursor: zoom-in;
+    transform: scale(1.8)
+}
+
+.keyword {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    background-color: rgb(194, 248, 226);
+    color: rgb(77, 87, 161);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.keyword:hover {
+    background-color: rgb(237, 255, 38);
+    cursor: pointer;
+}
